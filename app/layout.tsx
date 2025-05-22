@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Prakhar Tripathi",
-      url: "https://abhishekg.com.np",
+      url: "https://prakhartripathi.vercel.app",
     },
   ],
   creator: "Prakhar Tripathi",
