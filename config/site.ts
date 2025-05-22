@@ -7,7 +7,7 @@ export const siteConfig = {
     shadcn: "https://ui.shadcn.com/",
     telegram: "https://t.me/heyyprakhar",
     twitter: "https://x.com/heyyprakhar",
-    github: "https://github.com/cypherab01/abhishekg.com.np",
+    github: "https://github.com/heyprakhar",
     githubProfile: "https://github.com/heyprakhar",
     resume: "https://www.overleaf.com/read/pwbbqtpthxxr#946f81",
     email: "mailto:talk2prakhartripathi@gmail.com",
