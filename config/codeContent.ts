@@ -29,7 +29,7 @@ console.log(getSkills());
   contact: `const contactDetails = {
     name: "Prakhar Tripathi",
     email: "talk2prakhartripathi@gmail.com",
-    mobile: "+977-8707820311",
+    mobile: "+91-8707820311",
     location: "Ghaziabad, Uttar Pradesh, India",
     linkedIn: "https://www.linkedin.com/in/prakhar-tripathi-931049227/",
     github: "github.com/heyprakhar",

@@ -3,11 +3,11 @@ export const docsConfig = {
     {
       title: "Home",
       href: "/",
-    },
-    {
-      title: "Blog",
-      href: "https://blog.abhishekg.com.np",
-    },
+    }
+    // {
+    //   title: "Blog",
+    //   href: "https://blog.abhishekg.com.np",
+    // },
   ],
   sidebarNav: [
     {

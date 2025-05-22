@@ -38,11 +38,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Abhishek Ghimire",
+      name: "Prakhar Tripathi",
       url: "https://abhishekg.com.np",
     },
   ],
-  creator: "Abhishek Ghimire",
+  creator: "Prakhar Tripathi",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@cypherab01",
+    creator: "@heyprakhar",
   },
   icons: {
     icon: "/favicon.ico",
