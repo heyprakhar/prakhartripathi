@@ -13,7 +13,7 @@ export const siteConfig = {
     email: "mailto:talk2prakhartripathi@gmail.com",
     githubUsername: "heyprakhar",
   },
-  // bitinfonepal: "https://bitinfonepal.com",
+  renaissanceakgec: "https://renaissanceakgec.club",
 };
 
 export type SiteConfig = typeof siteConfig;

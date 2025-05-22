@@ -47,41 +47,47 @@ const EducationPage = () => {
             </svg>
           </span>
           <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Bachelors in Information Technology · Patan Multiple Campus ·
-            Tribhuvan University
+            Bachelors in Computer Science · Ajay Kumar Garg Engineering College
+            · AKTU
             <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300 ms-3">
               Latest
             </span>
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Mar. 2021 - May 2025 (Expected)
+            November 2022 - August 2026 (Expected)
           </time>
           <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-            I am pursuing a Bachelor's in IT at Patan Multiple Campus,
-            specializing in programming, web development, and software
-            engineering.
+            I am pursuing a Bachelor's in Computer Science at Ajay Kumar Garg
+            Engineering College, affiliated with AKTU, specializing in
+            programming, web development, and software engineering.
           </p>
 
           <HoverCard>
             <HoverCardTrigger className="cursor-pointer ">
-              {/* <Link href={siteConfig.bitinfonepal}>
-              Visit bitinfonepal.com
-              </Link> */}
-              @bitinfonepal.com
+              <Link href={siteConfig.renaissanceakgec} target="_blank">
+                @renaissanceakgec.club
+              </Link>
             </HoverCardTrigger>
             <HoverCardContent>
               <p>
-                I co-created{" "}
+                I created{" "}
                 <Link
-                  href={siteConfig.bitinfonepal}
+                  href={siteConfig.renaissanceakgec}
                   className="underline cursor-pointer underline-offset-4"
                 >
-                  bitinfonepal.com
+                  renaissanceakgec.club
                 </Link>
-                , an exam-friendly platform for BIT students. This website helps
-                students prepare for their exams by providing resources like
-                notes, syllabuses, past questions, and BIT filtered notices,
-                offering a comprehensive study companion.
+                ,the official website for Team Renaissance, the cultural society
+                of AKGEC, with the goal of showcasing events, team members, and
+                college achievements in an engaging and interactive format. The
+                platform features a fully responsive, user-friendly interface
+                built with ReactJS and TailwindCSS, ensuring a seamless
+                experience across all devices. To enhance visual appeal and
+                interactivity, I integrated Framer Motion for smooth UI
+                animations and transitions. Supabase was used for secure and
+                scalable backend storage of media assets and structured data.
+                Additionally, the website served as a recruitment portal for
+                onboarding new members to the society.
               </p>
             </HoverCardContent>
           </HoverCard>
@@ -99,14 +105,15 @@ const EducationPage = () => {
             </svg>
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Physical Science · Deep Boarding High School · NEB
+            Intermediate Degree · Kendriya Vidyalaya No.1, Air Force Station ·
+            AISSCE
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            July 2018 - Oct. 2020
+            May 2020 - October 2022
           </time>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            I completed my higher secondary education in Physical Science from
-            Deep Boarding High School, Butwal.
+            I completed my senior secondary education in PCM from Kendriya
+            Vidyalaya No.1, Air Force Station, Gorakhpur.
           </p>
         </li>
         <li className="ms-6">
@@ -122,14 +129,16 @@ const EducationPage = () => {
             </svg>
           </span>
           <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
-            Secondary Education · Motherland English School · SEE
+            Secondary Education · Kendriya Vidyalaya No.1, Air Force Station ·
+            AISSE
           </h3>
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-            Apr. 2005 - Mar. 2018
+            April 2010 - April 2020
           </time>
           <p className="text-base font-normal text-gray-500 dark:text-gray-400">
-            I completed my foundational education up to SEE at Motherland
-            English School
+            I completed my foundational education up to 10th grade at Kendriya
+            Vidyalaya No.1, Air Force Station, Gorakhpur, where I developed a
+            strong academic base and a passion for learning.
           </p>
         </li>
       </ol>

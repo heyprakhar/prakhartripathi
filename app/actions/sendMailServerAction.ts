@@ -29,6 +29,7 @@ async function sendEmail(fullname: string, email: string, message: string) {
       success: "Message sent successfully, I'll get back to you soon. 🤖",
     };
   } catch (error: any) {
+    console.error("Nodemailer Error:", error);
     return {
       error:
         "There seems a problem with the email service, please try again later. 🤖",
