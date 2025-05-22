@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "prakhartripathi.dev",
-  url: "http://localhost:3000",
+  url: "https://prakhartripathi.vercel.app",
   ogImage: "https://abhishekg.com.np/og.jpg",
   description: "Portfolio of Prakhar Tripathi",
   links: {
@@ -9,7 +9,7 @@ export const siteConfig = {
     twitter: "https://x.com/heyyprakhar",
     github: "https://github.com/heyprakhar",
     githubProfile: "https://github.com/heyprakhar",
-    resume: "https://www.overleaf.com/read/pwbbqtpthxxr#946f81",
+    resume: "https://www.overleaf.com/read/jvmtpbvyvgpv#d45513",
     email: "mailto:talk2prakhartripathi@gmail.com",
     githubUsername: "heyprakhar",
   },
