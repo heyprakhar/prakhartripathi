@@ -76,7 +76,7 @@ export const projects = [
     ],
     feedback: true,
     links: {
-      live: "https://abhishekg.com.np",
+      live: "https://prakhartripathi.vercel.app/",
       github: "https://github.com/heyprakhar/prakhartripathi",
     },
   },
