@@ -13,7 +13,7 @@ const AboutMePage = () => {
       <PageHeader>
         <PageHeaderHeading>About Prakhar</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          I code.I commit.I pray.I repeat.
+          I code. I commit. I pray. I repeat.
         </PageHeaderHeading>
         <PageHeaderDescription>
           I am a passionate Software Engineer with a knack for building
