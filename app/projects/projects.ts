@@ -156,12 +156,12 @@ export const projects = [
     },
   },
   {
-    title: "Marker List Maker | CRUD-Based Learning Project",
-    slug: "marker-list-maker",
+    title: "Market List Maker | CRUD-Based Learning Project",
+    slug: "market-list-maker",
     tagline:
-      "A simple yet effective React-based app to create, update, and delete a list of favorite markers.",
+      "A simple yet effective React-based app to create, update, and delete a list of favorite items.",
     overview:
-      "Marker List Maker is a beginner-friendly project built using React.js and Tailwind CSS to understand the core concepts of CRUD operations in a practical setting. The application allows users to add, update, and delete markers (or any custom items) in a clean, responsive interface. This project was developed for learning purposes, focusing on React state management, form handling, and conditional rendering.",
+      "Market List Maker is a beginner-friendly project built using React.js and Tailwind CSS to understand the core concepts of CRUD operations in a practical setting. The application allows users to add, update, and delete items in a clean, responsive interface. This project was developed for learning purposes, focusing on React state management, form handling, and conditional rendering.",
     features: [
       "Create, Read, Update, and Delete functionality for list items",
       "Responsive and clean UI built with Tailwind CSS",
