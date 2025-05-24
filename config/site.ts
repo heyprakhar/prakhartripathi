@@ -1,7 +1,8 @@
 export const siteConfig = {
   name: "prakhartripathi.dev",
   url: "https://prakhartripathi.vercel.app",
-  ogImage: "https://abhishekg.com.np/og.jpg",
+  ogImage:
+    "https://itmpguawrenuykpfvfbn.supabase.co/storage/v1/object/public/portfolio//og.jpg",
   description: "Portfolio of Prakhar Tripathi",
   links: {
     shadcn: "https://ui.shadcn.com/",
