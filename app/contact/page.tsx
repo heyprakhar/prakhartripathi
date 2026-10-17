@@ -25,16 +25,16 @@ const ContactPage = async () => {
             <ContactForm />
           </TabsContent>
           <TabsContent value="details" className="mt-4">
-            <CodeSnippet title="contact.ts" code={code.contact} />
+            <CodeSnippet title="Contact.java" code={code.contact} />
           </TabsContent>
         </Tabs>
       </div>
 
       <Pager
         prevHref="/education"
-        nextHref="/stats"
+        nextHref="/"
         prevTitle="Education"
-        nextTitle="Stats"
+        nextTitle="Home"
       />
     </>
   );

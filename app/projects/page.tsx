@@ -1,6 +1,9 @@
 import CodeSnippet from "@/components/code-snippet";
 import { PageHeader } from "@/components/page-header";
-import { PageHeaderHeading } from "@/components/page-header";
+import {
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from "@/components/page-header";
 import Pager from "@/components/pager";
 import {
   Card,
@@ -18,8 +21,14 @@ const ProjectsPage = () => {
       <PageHeader className="mb-10">
         <PageHeaderHeading>Projects</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          A lot of ideas, but some are still under construction!
+          Backend-first systems and a consumer platform used in production.
         </PageHeaderHeading>
+        <PageHeaderDescription>
+          A small, honest selection of work — a Spring Boot microservice built
+          to showcase layered REST design, Kafka, Redis, and RBAC, and a
+          high-traffic consumer platform with Spring Boot + MongoDB behind a
+          React/Next.js frontend.
+        </PageHeaderDescription>
       </PageHeader>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 card-container">
@@ -46,7 +55,7 @@ const ProjectsPage = () => {
         ))}
       </div>
 
-      <CodeSnippet code={code.projects} title="projects.ts" />
+      <CodeSnippet code={code.projects} title="Projects.java" />
 
       <Pager
         prevHref="/about"

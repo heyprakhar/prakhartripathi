@@ -18,15 +18,15 @@ const IntroductionPage = async () => {
       <PageHeader>
         <PageHeaderHeading>Prakhar Tripathi</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          A coder by day, problem-solver by night!
+          Java Backend Developer · Spring Boot · Microservices
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I am a dedicated Software Engineer specializing in full-stack
-          application development. I enjoy crafting responsive web solutions
-          using modern technologies like Next.js, React, and Tailwind CSS.
-          Currently, I am expanding my skills into mobile development with React
-          Native and Expo, aiming to deliver comprehensive, user-centric
-          software solutions.
+          I build production microservices on a US healthcare platform with
+          Java, Spring Boot, Apache Kafka, Redis, and MySQL. My work spans
+          distributed transactions with rollback, event-driven inter-service
+          communication, Redis-backed performance tuning, centralized
+          scheduling, multi-channel notifications, and secure, permission-based
+          APIs aligned with HIPAA practices.
         </PageHeaderDescription>
         <PageActions>
           <Button asChild size="sm" className="rounded-md">
@@ -44,7 +44,7 @@ const IntroductionPage = async () => {
         </PageActions>
       </PageHeader>
 
-      <CodeSnippet title="welcome.ts" code={code.welcome} />
+      <CodeSnippet title="Welcome.java" code={code.welcome} />
 
       <Pager
         prevHref="/"

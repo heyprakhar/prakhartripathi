@@ -120,7 +120,7 @@ const ProjectDetails = async ({
           </div>
         )}
 
-        {project.links && (
+        {(project.links?.live || project.links?.github) && (
           <div id="links" className="my-4">
             <h2 className="text-lg font-semibold">
               {project.links.live && project.links.github ? "Links" : "Link"}

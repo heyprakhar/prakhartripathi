@@ -14,32 +14,39 @@ import { SideNav } from "@/components/side-nav";
 import { SiteFooter } from "@/components/site-footer";
 import { docsConfig } from "@/config/docs";
 
-import { setViewsServerAction } from "./actions/getAndSetViewsServerAction";
-import { getLoveCountServerAction } from "./actions/getAndSetLoveCountServerAction";
-
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
-  title: siteConfig.name,
+  title: {
+    default: "Prakhar Tripathi — Java Backend Developer",
+    template: "%s · Prakhar Tripathi",
+  },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   keywords: [
     "Prakhar Tripathi",
-    "Prakhar T",
-    "abhishekg.com.np",
-    "Prakhar Tripathi Portfolio",
-    "Prakhar Tripathi Projects",
-    "Prakhar Tripathi Skills",
-    "Prakhar Tripathi Experience",
-    "Prakhar Tripathi Education",
-    "Prakhar Tripathi Contact",
-    "Prakhar Tripathi Blog",
-    "Prakhar Tripathi Resume",
+    "Java Backend Developer",
+    "Spring Boot",
+    "Spring Cloud",
+    "Spring Security",
+    "Microservices",
+    "Apache Kafka",
+    "Redis",
+    "MySQL",
+    "MongoDB",
+    "RESTful APIs",
+    "Event-Driven Architecture",
+    "RBAC",
+    "JWT",
+    "FHIR APIs",
+    "HIPAA",
+    "AWS EC2",
+    "Backend Engineer India",
   ],
   authors: [
     {
       name: "Prakhar Tripathi",
-      url: "https://prakhartripathi.vercel.app",
+      url: siteConfig.url,
     },
   ],
   creator: "Prakhar Tripathi",
@@ -47,7 +54,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
-    title: siteConfig.name,
+    title: "Prakhar Tripathi — Java Backend Developer",
     description: siteConfig.description,
     siteName: siteConfig.name,
     images: [
@@ -55,13 +62,13 @@ export const metadata: Metadata = {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: siteConfig.name,
+        alt: "Prakhar Tripathi — Java Backend Developer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: siteConfig.name,
+    title: "Prakhar Tripathi — Java Backend Developer",
     description: siteConfig.description,
     images: [siteConfig.ogImage],
     creator: "@heyprakhar",
@@ -82,18 +89,7 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-async function loadStats() {
-  try {
-    await setViewsServerAction();
-    await getLoveCountServerAction();
-  } catch (error) {
-    console.error("Failed to load stats:", error);
-    return;
-  }
-}
-
 export default async function RootLayout({ children }: RootLayoutProps) {
-  await loadStats();
   return (
     <>
       <html lang="en" suppressHydrationWarning>

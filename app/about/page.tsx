@@ -13,32 +13,36 @@ const AboutMePage = () => {
       <PageHeader>
         <PageHeaderHeading>About Prakhar</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          I code. I commit. I pray. I repeat.
+          Backend engineer focused on reliable, event-driven systems.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I am a passionate Software Engineer with a knack for building
-          full-stack web applications using modern technologies like Next.js and
-          Tailwind CSS. My journey in tech began with a curiosity for solving
-          real-world problems through innovative solutions, which evolved into a
-          love for crafting user-centric digital experiences.
+          I&apos;m a Java backend engineer at Orangemantra, contributing to
+          Korecare — a US healthcare platform. My day-to-day centers on
+          designing and shipping Spring Boot microservices that handle
+          distributed transactions over Apache Kafka, with rollback logic to
+          keep data consistent when a dependent service fails mid-transaction.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          With a strong foundation in JavaScript frameworks, I focus on creating
-          scalable, efficient, and visually appealing applications. Currently, I
-          am diving deeper into mobile development with React Native and Expo to
-          expand my skill set and deliver versatile, cross-platform solutions.
+          I&apos;ve improved inter-service API performance by introducing Redis
+          caching and tightening service communication, replaced per-service
+          schedulers with a centralized Scheduler Service, and built a
+          multi-channel Notification Service for Android, iOS, and real-time
+          web via Server-Sent Events — applying the Factory Design Pattern and
+          adding retries with failure-state tracking.
         </PageHeaderDescription>
 
         <PageHeaderDescription>
-          Beyond coding, I thrive in collaborative environments and enjoy
-          tackling challenging problems with creative solutions. I aim to
-          contribute to impactful projects that make a difference in users'
-          lives.
+          On the security side, I&apos;ve implemented Role-Based Access Control
+          with Spring Security and a custom @RequirePermission annotation,
+          centralized patient-data sharing with ShareData Management, and
+          applied HIPAA-aligned handling for sensitive US healthcare data. I
+          also enjoy production debugging, low-level design, and keeping a
+          strong DSA and OOP foundation sharp.
         </PageHeaderDescription>
       </PageHeader>
 
-      <CodeSnippet title="aboutMe.ts" code={code.aboutMe} />
+      <CodeSnippet title="AboutMe.java" code={code.aboutMe} />
 
       <Pager
         prevHref="/"
