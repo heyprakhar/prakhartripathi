@@ -16,7 +16,7 @@ const AboutMePage = () => {
           Backend engineer focused on reliable, event-driven systems.
         </PageHeaderHeading>
         <PageHeaderDescription>
-          I&apos;m a Java backend engineer at Orangemantra, contributing to
+          I&apos;m a Java backend engineer at Orangemantra, currently contributing to
           Korecare — a US healthcare platform. My day-to-day centers on
           designing and shipping Spring Boot microservices that handle
           distributed transactions over Apache Kafka, with rollback logic to

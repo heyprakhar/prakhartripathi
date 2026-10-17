@@ -28,7 +28,7 @@ const ExperiencePage = () => {
       <PageHeader className="mb-10">
         <PageHeaderHeading>Experience</PageHeaderHeading>
         <PageHeaderHeading className="mt-2 text-muted-foreground">
-          Shipping production backend systems for US healthcare.
+          Shipping production backend systems.
         </PageHeaderHeading>
         <PageHeaderDescription>
           My professional work is focused on building scalable, event-driven

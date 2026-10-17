@@ -10,7 +10,7 @@ export const siteConfig = {
     linkedin: "https://linkedin.com/in/heyprakhar",
     github: "https://github.com/heyprakhar",
     githubProfile: "https://github.com/heyprakhar",
-    resume: "https://www.overleaf.com/read/jvmtpbvyvgpv#d45513",
+    resume: "https://drive.google.com/file/d/1u3ZeR-N1sX39_BMHiChAlHz_h5etIGbW/view?usp=sharing",
     email: "mailto:talk2prakhartripathi@gmail.com",
     githubUsername: "heyprakhar",
   },

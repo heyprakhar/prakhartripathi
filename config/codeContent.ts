@@ -44,7 +44,7 @@ skills.forEach((group, items) ->
     public static final String NAME     = "Prakhar Tripathi";
     public static final String EMAIL    = "talk2prakhartripathi@gmail.com";
     public static final String PHONE    = "+91-8707820311";
-    public static final String LOCATION = "Ghaziabad, Uttar Pradesh, India";
+    public static final String LOCATION = "Gurugram, Haryana, India";
     public static final String LINKEDIN = "https://linkedin.com/in/heyprakhar";
     public static final String GITHUB   = "https://github.com/heyprakhar";
 
@@ -59,7 +59,7 @@ skills.forEach((group, items) ->
     public static void main(String[] args) {
         var role = new Role(
             "Junior Java Developer",
-            "Orangemantra — Korecare (US Healthcare Platform)",
+            "Orangemantra — Digital Transformations",
             "Jan 2026 – Present"
         );
 
